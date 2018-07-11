@@ -1,0 +1,21 @@
+
+$text: #3f3d3d;
+$white: rgba(#fff, 1);
+$main: #E95A1E;
+$sliderWidth: 100;
+$sliderMount: 6;
+$sliderMountPhones: 3;
+$gradient: linear-gradient(to right, #f3f3f3, #ffffff);
+
+@import "font-awesome/font-awesome";
+@import "common/_mixins";
+@import "common/fonts";
+@import "common/extends";
+@import "common/animations";
+@import "common/adjustment";
+
+
+
+//styles
+@import "sections/header";
+@import "sections/first-section";
