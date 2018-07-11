@@ -2,7 +2,8 @@
 $text: #3f3d3d;
 $white: rgba(#fff, 1);
 $main: #E95A1E;
-$sliderWidth: 100;
+$primary: #1D7373;
+$text: #1effff;
 $sliderMount: 6;
 $sliderMountPhones: 3;
 $gradient: linear-gradient(to right, #f3f3f3, #ffffff);
@@ -19,3 +20,4 @@ $gradient: linear-gradient(to right, #f3f3f3, #ffffff);
 //styles
 @import "sections/header";
 @import "sections/first-section";
+@import "sections/why-we";

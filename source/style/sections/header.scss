@@ -27,7 +27,8 @@
     }
 
     .header-nav__link {
-        color: $main;
+        color: $text;
+        text-transform: uppercase;
     }
 
     .logo {
@@ -36,5 +37,20 @@
 
     .logo__img {
         width: 100%;
+    }
+
+    .header-phone {
+        color: #1effff;
+        font-size: 20px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-phone__icon {
+        width: 30px;
+        fill: #1effff;
+        margin-right: 10px;
     }
 }
